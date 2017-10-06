@@ -16,7 +16,7 @@ User Interface:
 Each program causes an LED to blink at a certain frequency.
 
 Common Functionality Among All Processors:
-All processors contain these elements in order to blink multiple LEDs at different rates:
+All processors contain these elements in order to blink an LED:
  1. The watchdog timer is cleared
  2. The P1DIR register is set such that the P1.0 LED will be an output
  3. The P1OUT register is set such that P1 is cleared before running the rest of the program
